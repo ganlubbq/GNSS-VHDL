@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/DaNi/Dropbox/FPGA/proves2016/E1OS_signal_generator_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="e1os_signal_generator_tb" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/e1os_signal_generator_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/alfa2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alfa2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alfa2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/beta2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">beta2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">beta2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/prn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">prn[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/strobe_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_in</obj_property>
+      <obj_property name="ObjectShortName">strobe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/strobe_prn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_prn</obj_property>
+      <obj_property name="ObjectShortName">strobe_prn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/addr_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_new</obj_property>
+      <obj_property name="ObjectShortName">addr_new</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider53" type="divider">
+      <obj_property name="label"></obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/prn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">prn[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/prn_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn_d[1:0]</obj_property>
+      <obj_property name="ObjectShortName">prn_d[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/cont" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cont[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cont[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t[3:0]</obj_property>
+      <obj_property name="ObjectShortName">t[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/strobe_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_out</obj_property>
+      <obj_property name="ObjectShortName">strobe_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/e1os" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e1os[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e1os[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[7]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">e1os[7]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[6]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">e1os[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[5]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">e1os[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[4]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">e1os[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">e1os[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">e1os[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">e1os[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/e1os[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">e1os[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider34" type="divider">
+      <obj_property name="label">Constants</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">v[0:9]</obj_property>
+      <obj_property name="ObjectShortName">v[0:9]</obj_property>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">v[0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">v[1]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">v[2]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">v[3]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">v[4]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">v[5]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">v[6]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">v[7]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">v[8]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/e1os_signal_generator_tb/uut/v[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">v[9]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/alfa2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alfa2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alfa2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_signal_generator_tb/uut/beta2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">beta2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">beta2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
