@@ -1,0 +1,1 @@
+GNSS codes and signal generation for VHDL. GPS (L1 C/A, L5), Galileo (E1OS, E5). Includes Xilinx ISE testbench and wave configuration files.
